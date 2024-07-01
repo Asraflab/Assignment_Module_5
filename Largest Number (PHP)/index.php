@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile Card</title>
+    <title>Find the largest number using PHP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+    <div class="card">
         <h1>Find the largest number using PHP </h1>
         <?php
         $num1 = 4;
@@ -17,8 +17,8 @@
         $num3 = 6; ?>
 
     <p><?php echo "First number is : " .$num1 ?> </p>
-    <p> <?php echo "First number is : " .$num2 ?>  </p>
-    <p> <?php echo "First number is : " .$num3 ?> </p>
+    <p> <?php echo "Second number is : " .$num2 ?>  </p>
+    <p> <?php echo "Third number is : " .$num3 ?> </p>
     <?php
         if ($num1 >= $num2 && $num1 >= $num3) {
             echo "<p>Largest Number is: " . $num1 . "</p>";
