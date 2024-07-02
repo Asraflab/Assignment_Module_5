@@ -12,7 +12,7 @@
         <h1>Celsius to Fahrenheit Conversion </h1>
         
         <?php 
-        $celsius = 3;
+        $celsius = 32;
         $farhenheit = $celsius * (9/5) + 32; 
      printf(" <h2> Farhenheit Number is : " .'%0.2f', $farhenheit. "</h2>") ;
         ?>
